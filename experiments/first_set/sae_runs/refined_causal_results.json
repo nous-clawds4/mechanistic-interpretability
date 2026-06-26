@@ -1,0 +1,70 @@
+{
+  "note": "Detailed per-prompt for 5532 from improved SAE recon causal (2026-06-23). Aggregates from direct prints. 9049 sample in prior file version.",
+  "means_5532": {
+    "L12": 0.0184,
+    "L16": 0.113
+  },
+  "L12_5532": {
+    "avg_clean": 7.79,
+    "avg_recon": -2.286,
+    "avg_zero": -2.327,
+    "avg_mean": -2.34,
+    "avg_amp": -2.25,
+    "zero_hurts_pct": 75,
+    "amp_helps_pct": 25,
+    "n": 4
+  },
+  "L16_5532_per_prompt": [
+    {
+      "prompt": "dog extension",
+      "clean": 7.4006,
+      "recon_d": -2.3626,
+      "zero_d": -2.3496,
+      "mean_d": -2.3496,
+      "amp_d": -2.3857
+    },
+    {
+      "prompt": "justice abstract",
+      "clean": 4.5478,
+      "recon_d": -0.6178,
+      "zero_d": -0.4381,
+      "mean_d": -0.4523,
+      "amp_d": -1.1433
+    },
+    {
+      "prompt": "Fido instance",
+      "clean": 5.2785,
+      "recon_d": -2.5417,
+      "zero_d": -2.5378,
+      "mean_d": -2.5672,
+      "amp_d": -2.5516
+    },
+    {
+      "prompt": "robin superset",
+      "clean": 13.9347,
+      "recon_d": -7.4736,
+      "zero_d": -7.4736,
+      "mean_d": -7.4739,
+      "amp_d": -7.4736
+    }
+  ],
+  "L16_5532": {
+    "avg_clean": 7.79,
+    "avg_recon": -3.249,
+    "avg_zero": -3.17,
+    "avg_mean": -3.199,
+    "avg_amp": -3.454,
+    "zero_hurts_pct": 100,
+    "amp_helps_pct": 0,
+    "n": 4
+  },
+  "L16_9049_agg_from_earlier": {
+    "n": 2,
+    "avg_clean": 5.974,
+    "avg_recon": -1.49,
+    "avg_zero": -1.484,
+    "avg_amp": -1.502,
+    "zero_hurts_pct": 100,
+    "amp_helps_pct": 0
+  }
+}

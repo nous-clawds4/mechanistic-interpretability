@@ -1,0 +1,248 @@
+{
+  "model_info": {
+    "note": "verified"
+  },
+  "num_features_analyzed": 30,
+  "features": [
+    {
+      "feature_idx": 0,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 1,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 2,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 3,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 4,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 5,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 6,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 7,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 8,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 9,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 10,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 11,
+      "max_activation": 0.0072264038026332855,
+      "mean_activation": 2.822813985403627e-05,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 12,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 13,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 14,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 15,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 16,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 17,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 18,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 19,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 20,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 21,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 22,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 23,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 24,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 25,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 26,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 27,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 28,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    },
+    {
+      "feature_idx": 29,
+      "max_activation": 0.0,
+      "mean_activation": 0.0,
+      "sparsity": 0.0,
+      "top_examples": [],
+      "description": null
+    }
+  ]
+}

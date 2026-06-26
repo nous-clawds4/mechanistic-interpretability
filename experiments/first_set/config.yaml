@@ -1,0 +1,25 @@
+# Phase 1 SAE Training Config - first_set
+# Use with: python -m src.sae.train_sae --config experiments/first_set/config.yaml
+
+model_name: "llama-3.1-8b"
+hook_name: "blocks.12.hook_resid_post"   # start with a middle layer; expand to 8-20 range later
+dataset_name: "NeelNanda/pile-10k"       # small, public, good starting point
+dataset_split: "train"
+is_dataset_tokenized: false
+
+d_sae: 24576                             # ~6-8x expansion for d_model ~4096
+# expansion_factor: 8
+
+lr: 5e-5
+l1_coefficient: 0.005
+batch_size: 4
+context_size: 128
+num_training_steps: 2000                 # keep small for first Mac runs; increase later
+
+seed: 42
+device: "auto"
+log_to_wandb: false
+wandb_project: "llm-tapestry-phase1"
+
+output_dir: "experiments/first_set/sae_runs/layer12_pile"
+save_every_n_steps: 250

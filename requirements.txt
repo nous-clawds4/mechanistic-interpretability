@@ -1,0 +1,50 @@
+# requirements.txt - Phase 1 (Feature Discovery) dependencies
+# For mechanistic interpretability experiments on Mac Studio (M-series) or similar.
+#
+# IMPORTANT:
+# - Python 3.11 or 3.12 is strongly recommended. Python 3.14 (current) may lack wheels.
+# - On Apple Silicon: torch will use MPS backend where possible.
+# - Total install size is large (torch + models). Ensure >30GB free.
+# - Run: pip3 install -r requirements.txt
+#
+# If you hit wheel issues on bleeding-edge Python, use pyenv or conda to get 3.11/3.12.
+
+# Core scientific
+numpy>=1.26
+matplotlib>=3.8
+pandas>=2.2
+scipy>=1.12
+tqdm>=4.66
+einops>=0.7
+seaborn>=0.13
+jupyter>=1.0
+notebook>=7.0
+ipywidgets>=8.0
+
+# PyTorch (MPS on macOS; CUDA elsewhere)
+# Use latest stable that supports your platform.
+torch>=2.3
+torchvision>=0.18
+torchaudio>=2.3
+
+# Hugging Face ecosystem (required for transformer_lens model loading)
+transformers>=4.41
+datasets>=2.19
+accelerate>=0.30
+huggingface_hub>=0.23
+safetensors>=0.4
+
+# Mechanistic Interpretability core libraries
+transformer-lens>=2.0
+sae-lens>=3.0
+
+# Optional but recommended for causal interventions (Phase 2+)
+nnsight>=0.3
+
+# Utilities
+pyyaml>=6.0
+scikit-learn>=1.4
+
+# For automated interpretability (feature description generation) - Phase 1 stretch
+# openai>=1.0   # or anthropic, if using LLM judge for autointerp
+# Uncomment when you have API keys and are ready for that step.
